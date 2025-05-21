@@ -7,13 +7,12 @@ Dieses Repository enthält den Code und die Skripte zur Bachelorarbeit über die
 
 - `S1_Lavaklassifikation.js` – Klassifikation von Lavaflüssen auf Basis von Sentinel-1-Daten  
 - `S2_Lavaklassifikation.js` – Klassifikation von Lavaflüssen auf Basis von Sentinel-2-Daten  
-- `lava_detection.js` – Kombiniertes Skript zur Detektion von Veränderungen mithilfe trainierter Klassifikatoren  
-- `eruption_app.js` – Interaktive GEE-App zur Auswahl und Analyse einzelner Eruptionsereignisse über ein Dropdown-Menü
+
 
 ### Erkennung von Lineationen
 
-- `S1_Sobel.js` – Anwendung eines gerichteten Sobel-Filters auf Sentinel-1-Daten zur Extraktion linearer Strukturen  
-- `S2_Sobel.js` – Anwendung des Sobel-Filters auf Hauptkomponenten der Sentinel-2-Daten
+- `S1_Sobel.js` – Anwendung eines gerichteten Sobel-Filters auf Sentinel-1-Daten 
+- `S2_Sobel.js` – Anwendung eines gerichtetenSobel-Filters auf Sentinel-2-Daten
 
 > **Hinweis**: Trainingsdaten und Geometrien (Untersuchungsgebiete) sind als Assets in der GEE ertellt worden und daher nicht im Repository enthalten.
 
