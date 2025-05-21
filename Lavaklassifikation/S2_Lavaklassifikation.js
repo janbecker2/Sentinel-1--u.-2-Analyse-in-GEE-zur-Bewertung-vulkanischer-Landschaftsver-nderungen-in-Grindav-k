@@ -389,5 +389,5 @@ function detectLavaChange(prePeriod, postPeriod, trainingValidationData, validat
     };
 
     // Anzeige der Klassifikationsdifferenz
-    Map.addLayer(classificationDifference, diffVisParams, 'Classification Difference');
+    Map.addLayer(classificationDifference.eq(1), diffVisParams, 'Classification Difference');
 }
