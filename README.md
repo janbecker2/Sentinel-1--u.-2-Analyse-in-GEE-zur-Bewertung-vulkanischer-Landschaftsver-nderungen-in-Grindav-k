@@ -15,7 +15,7 @@ Verarbeitung und Analyse der Daten wurde die cloudbasierte Plattform Google Eart
 - `S1_Sobel.js` – Anwendung eines gerichteten Sobel-Filters auf Sentinel-1-Daten 
 - `S2_Sobel.js` – Anwendung eines gerichtetenSobel-Filters auf Sentinel-2-Daten
 
-> **Hinweis**: Trainingsdaten und Geometrien (Untersuchungsgebiete) sind als Assets in der GEE ertellt worden und daher nicht im Repository enthalten.
+> **Hinweis**: Trainingsdaten und Geometrien (Untersuchungsgebiete) sind als Assets in der GEE erstellt worden und daher nicht im Repository enthalten.
 
 ## Technologien
 
