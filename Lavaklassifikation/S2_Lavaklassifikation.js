@@ -375,19 +375,18 @@ function detectLavaChange(prePeriod, postPeriod, trainingValidationData, validat
 
     var area = changedAreaImage.reduceRegion({
         reducer: ee.Reducer.sum(),
-        geometry: aoi,   // deine ROI
-        scale: 10,          // oder passender Maßstab je nach Daten
+        geometry: aoi,   
+        scale: 10,         
         maxPixels: 1e13
     });
 
     print('Veränderte Fläche in m²:', area);
-    // Visualisierungsparameter für die Differenzkarte
+ 
     var diffVisParams = {
         min: -3,
         max: 3,
         palette: ['white', 'black', 'orange']
     };
 
-    // Anzeige der Klassifikationsdifferenz
     Map.addLayer(classificationDifference.eq(1), diffVisParams, 'Classification Difference');
 }
