@@ -1,6 +1,6 @@
 # Analyse von Sentinel-1- und Sentinel-2-Daten mithilfe der Google Earth Engine (GEE) zur Beurteilung aktueller vulkanisch bedingter Landschaftsveränderungen -  Eine Fallstudie in der Region Grindavík (Island)
 
-Dieses Repository enthält den Code und die Skripte zur Bachelorarbeit über die Erkennung vulkanisch bedingter Landschaftsveränderungen in der Region Grindavík (Island) mithilfe von Sentinel-1- und Sentinel-2-Satellitendaten. In dieser Arbeit werden Satellitendaten zur Beurteilung aktueller vulkanisch bedingter
+Dieses Repository enthält den Code und die Skripte zur Bachelorarbeit über die Erkennung vulkanisch bedingter Landschaftsveränderungen in der Region Grindavík (Island). In dieser Arbeit werden Satellitendaten zur Beurteilung aktueller vulkanisch bedingter
 Landschaftsveränderungen in der Region Grindavík untersucht. Hierbei kommen Daten der Sentinel-1- und Sentinel-2-Missionen der European Space Agency (ESA) zum Einsatz. Die Analyse fokussiert sich einerseits auf die Klassifikation junger Lavaströme, andererseits auf die Untersuchung einer vulkano-tektonisch relevanten Lineation. Zur
 Verarbeitung und Analyse der Daten wurde die cloudbasierte Plattform Google Earth Engine genutzt. Ziel ist es, das Potenzial von Sentinel-1- und Sentinel-2-Daten zur Erfassung junger Lavaflächen sowie vulkano-tektonischer Strukturen zu untersuchen. Darüber hinaus werden die Möglichkeiten zur automatisierten Umsetzung dieser Prozesse in der cloudbasierten Analyseumgebung Google Earth Engine (GEE) evaluiert.
 ## Inhalte
