@@ -3,30 +3,29 @@
 Dieses Repository enthält den Code und die Skripte zur Bachelorarbeit über die Erkennung vulkanisch bedingter Landschaftsveränderungen in der Region Grindavík (Island) mithilfe von Sentinel-1- und Sentinel-2-Satellitendaten. Die Analyse erfolgt in der Google Earth Engine (GEE) unter Nutzung von Zeitreihen, Sobel-Filterungen, Segmentierung und Klassifikation.
 
 ## Inhalte
+### Lavaklassifikation
 
-- `lava_detection.js`: Hauptskript zur Erkennung und Klassifikation von Lavaflüssen anhand von Sentinel-Daten
-- `eruption_app.js`: GEE-App mit Dropdown zur interaktiven Auswahl von Eruptionsereignissen
-- Trainingsdaten (als GEE-Assets referenziert, nicht im Repo enthalten)
+- `S1_Lavaklassifikation.js` – Klassifikation von Lavaflüssen auf Basis von Sentinel-1-Daten  
+- `S2_Lavaklassifikation.js` – Klassifikation von Lavaflüssen auf Basis von Sentinel-2-Daten  
+- `lava_detection.js` – Kombiniertes Skript zur Detektion von Veränderungen mithilfe trainierter Klassifikatoren  
+- `eruption_app.js` – Interaktive GEE-App zur Auswahl und Analyse einzelner Eruptionsereignisse über ein Dropdown-Menü
+
+### Erkennung von Lineationen
+
+- `S1_Sobel.js` – Anwendung eines gerichteten Sobel-Filters auf Sentinel-1-Daten zur Extraktion linearer Strukturen  
+- `S2_Sobel.js` – Anwendung des Sobel-Filters auf Hauptkomponenten der Sentinel-2-Daten
+
+> **Hinweis**: Trainingsdaten und Geometrien (Untersuchungsgebiete) sind als Assets in der GEE ertellt worden und daher nicht im Repository enthalten.
 
 ## Technologien
 
 - **Google Earth Engine**
 - **Sentinel-1 & Sentinel-2**
 - **SNIC-Segmentierung**
-- **Sobel-Filterung**
-- **Random Forest Klassifikation**
+- **Hauptkomponetenanalyse**
+- **Spektrale Indizes**
+- **Random Forest**
+- **Sobel-Filter**
 
-## Ziel
 
-Ziel ist es, ein automatisiertes Verfahren zur Beurteilung aktueller vulkanisch bedingter Landschaftsveränderungen zu entwickeln, das sich auf andere Regionen und Ereignisse übertragen lässt.
-
-## Anwendung
-
-Die interaktive App kann innerhalb der GEE-Umgebung verwendet werden. Auswahl der Eruption erfolgt über ein Dropdown-Menü; daraufhin wird die entsprechende Analyse ausgeführt.
-
-## Lizenz
-
-MIT License – siehe [LICENSE](LICENSE)
-
----
 
